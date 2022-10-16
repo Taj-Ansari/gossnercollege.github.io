@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/georgia');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +14,12 @@
 }
 
 header {
-    font-family: serif !important;
+    font-family: 'Georgia', serif !important;
     justify-content: space-between;
     background-color: #f2f2f2;
 }
-.main-heading-element{
+
+.main-heading-element {
     text-decoration: none;
 }
 
@@ -249,6 +252,7 @@ li a {
         column-gap: 30px;
     }
 }
+
 @media screen and (min-device-width: 425px) and (max-device-width: 512px) {
 
     .heading h1,
@@ -257,41 +261,43 @@ li a {
         padding: 0 0 0 0.2rem;
         font-weight: bold;
     }
-    
+
     .heading h1 {
         line-height: 1.5rem;
-        font-size: 1.8rem; 
-     } 
+        font-size: 1.8rem;
+    }
 
-     .heading h4 {
+    .heading h4 {
         font-size: .8rem;
-    } 
-    
+    }
+
 }
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
+
     .heading h1,
     .heading h4 {
         color: rgb(33, 37, 41);
     }
-    
+
     .heading h1 {
         line-height: 1rem;
-        font-size: 1.4rem;   
-     } 
+        font-size: 1.4rem;
+    }
 
-     .heading h4 {
+    .heading h4 {
         font-size: .62rem;
-    } 
+    }
 
 }
-@media screen and (max-width:374px){
-    .side1{
+
+@media screen and (max-width:374px) {
+    .side1 {
         display: block;
         text-align: center;
     }
-    .heading{
+
+    .heading {
         display: none;
     }
 }
-
