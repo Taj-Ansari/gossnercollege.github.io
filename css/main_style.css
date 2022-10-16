@@ -24,7 +24,7 @@ header {
 .heading h4 {
     color: rgb(33, 37, 41);
     padding: 0 0 0 0.5rem;
-    line-height: 1.8rem;
+    /* line-height: 1.8rem; */
     font-weight: bold;
 }
 
@@ -249,29 +249,49 @@ li a {
         column-gap: 30px;
     }
 }
-
-@media screen and (max-width: 518px) {
+@media screen and (min-device-width: 425px) and (max-device-width: 512px) {
 
     .heading h1,
     .heading h4 {
         color: rgb(33, 37, 41);
         padding: 0 0 0 0.2rem;
-        line-height: 1.3rem;
         font-weight: bold;
     }
-
+    
     .heading h1 {
-        font-size: 1.8rem;
-        /* width: 100%; */
-    }
+        line-height: 1.5rem;
+        font-size: 1.8rem; 
+     } 
 
-    .heading h4 {
+     .heading h4 {
         font-size: .8rem;
+    } 
+    
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .heading h1,
+    .heading h4 {
+        color: rgb(33, 37, 41);
+    }
+    
+    .heading h1 {
+        line-height: 1rem;
+        font-size: 1.4rem;   
+     } 
+
+     .heading h4 {
+        font-size: .62rem;
+    } 
+
+}
+@media screen and (max-width:374px){
+    .side1{
+        display: block;
+        text-align: center;
+    }
+    .heading{
+        display: none;
     }
 }
 
-@media screen and(max-width: 432px) {
-    .heading .side1 {
-        display: flex;
-    }
-}
