@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Times New Roman';
-    src: local('Times New Roman'), url('https://fonts.cdnfonts.com/s/57197/times.woff') format('woff');
+    font-family: TNR;
+    src: url(./fonts/times.woff) format('woff');
 }
 * {
     margin: 0;
@@ -16,7 +16,7 @@
 }
 
 header {
-    font-family: 'Times New Roman', serif , sans-serif !important;
+    font-family: TNR,'Times New Roman', serif , sans-serif !important;
     justify-content: space-between;
     background-color: #f2f2f2;
 }
