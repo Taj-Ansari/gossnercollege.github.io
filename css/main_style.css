@@ -1,4 +1,7 @@
-@import url('http://fonts.cdnfonts.com/css/times-new-roman');
+@font-face {
+    font-family: 'Times New Roman';
+    src: local('Times New Roman'), url('https://fonts.cdnfonts.com/s/57197/times.woff') format('woff');
+}
 * {
     margin: 0;
     padding: 0;
