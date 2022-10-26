@@ -96,9 +96,17 @@ header {
 /* About Ends */
 
 /* Body Starts */
-
+.notification a{
+    text-decoration: none;
+    color: rgba(33, 37, 41, 0.897);
+    font-weight: 500;
+}
+.notification a:hover{
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+}
 .grid-section {
-    /* margin-top: 35px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
